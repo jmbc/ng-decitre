@@ -51,3 +51,47 @@
   justify-content: flex-start; // Aligne le burger à gauche
   gap: 8px; // Espacement
 }
+
+// src/app/app.component.scss ou styles.scss
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; // Déjà présent : assure hauteur minimale pleine page
+  overflow: hidden; // Empêche scroll global
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  flex: 0 0 auto; // Fixes, non extensibles (déjà présent)
+  height: 64px; // Hauteur standard pour mat-toolbar ; ajustez si custom
+}
+
+.sidenav-container {
+  flex: 1 1 auto; // Prend tout l'espace restant entre header et footer
+  overflow: hidden; // Pas de scroll sur le container
+  height: calc(100vh - 128px); // Calcul explicite : 100vh moins header (64px) + footer (64px) ; ajustez si hauteurs différentes
+  max-height: calc(100vh - 128px); // Évite débordement
+}
+
+.sidenav {
+  width: 250px; // Largeur existante
+  padding: 16px;
+  background-color: #f4f4f4;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100% !important; // Force le sidenav à occuper 100% de la hauteur du container (plein écran vertical)
+  min-height: 100%; // Minimum pour éviter rétrécissement
+  overflow-y: auto; // Ajout optionnel : scroll interne si le menu est trop long (e.g., plus de liens futurs)
+}
+
+mat-sidenav-content {
+  overflow-y: auto; // Scroll vertical seulement ici pour le contenu central (e.g., liste de livres dans search ou details)
+  overflow-x: hidden;
+  padding: 16px;
+  height: 100%; // Assure que le contenu central remplit aussi la hauteur disponible
+}
+
+// Backdrop (voile gris) reste inchangé, mais assurez qu'il couvre toute la hauteur
+:host ::ng-deep .mat-mdc-sidenav-backdrop {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  height: 100vh !important; // Force le voile à couvrir toute la page, y compris header/footer si besoin
+}
