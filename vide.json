@@ -1,0 +1,2135 @@
+{
+    "status": "success",
+    "messages": [],
+    "metadata": {
+        "page": 1,
+        "limit": 25,
+        "total": 684
+    },
+    "data": [
+        {
+            "bookingNumber": "1125073",
+            "systemBookingNumber": "251125073",
+            "totalCredit": 6000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "",
+                    "walletName": "9454",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "1125073",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "",
+                    "pointOfSaleName": "",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-06-16T09:35:28Z",
+                    "updatedAt": "2025-06-16T09:42:11Z",
+                    "customer": {
+                        "firstName": "AMANDINE",
+                        "lastName": "BRUNEL",
+                        "fullName": "BRUNEL AMANDINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "migration",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "abc907ae3e675c78cd20c1ec304ea270",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "1125073",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-01T01:33:22.638Z",
+                    "updatedAt": "2025-07-01T01:33:22.638Z",
+                    "customer": {
+                        "firstName": "AMANDINE",
+                        "lastName": "BRUNEL",
+                        "fullName": "BRUNEL AMANDINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "ONSITE",
+                    "walletCode": "9454",
+                    "walletId": "abc907ae3e675c78cd20c1ec304ea270",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "1125073",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "RDP-BD-25-251125073-02",
+                    "pointOfSaleCode": "FRBDAD017762",
+                    "pointOfSaleName": "",
+                    "reference": "R-9454",
+                    "partner": "CP",
+                    "createdAt": "2025-07-01T09:03:11.119Z",
+                    "updatedAt": "2025-07-01T09:03:11.119Z",
+                    "customer": {
+                        "firstName": "AMANDINE",
+                        "lastName": "BRUNEL",
+                        "fullName": "BRUNEL AMANDINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "6077",
+                        "firstName": "Perrine",
+                        "lastName": "Tiffoin"
+                    },
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "8606576",
+            "systemBookingNumber": "248606576",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "a1c0d7906ec0c2f9d695b4236f3443b6",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "8606576",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T01:36:31.896Z",
+                    "updatedAt": "2025-07-03T01:36:31.896Z",
+                    "customer": {
+                        "firstName": "VANESSA",
+                        "lastName": "LOIZEAU",
+                        "fullName": "LOIZEAU VANESSA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "a1c0d7906ec0c2f9d695b4236f3443b6",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "8606576",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1751650166",
+                    "pointOfSaleCode": "40FED2DA",
+                    "pointOfSaleName": "PDA BD LI #76",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-04T17:29:26.391Z",
+                    "updatedAt": "2025-07-04T17:29:26.391Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "LOIZEAU VANESSA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "184074",
+            "systemBookingNumber": "250184074",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "2d719a8fc69ae65291a2af80260ab7cf",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "184074",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:16.126Z",
+                    "updatedAt": "2025-07-06T02:56:16.126Z",
+                    "customer": {
+                        "firstName": "MARION",
+                        "lastName": "PERIOU",
+                        "fullName": "PERIOU MARION",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "2d719a8fc69ae65291a2af80260ab7cf",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "184074",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1752068577",
+                    "pointOfSaleCode": "B093BFAA",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-09T13:42:57.445Z",
+                    "updatedAt": "2025-07-09T13:42:57.445Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "PERIOU MARION",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "4946970",
+            "systemBookingNumber": "244946970",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "67096fd7ea858d5ed6fbf52632da5cee",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "4946970",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:03.579Z",
+                    "updatedAt": "2025-07-06T02:56:03.579Z",
+                    "customer": {
+                        "firstName": "GUILLAUME",
+                        "lastName": "DUCLAUX",
+                        "fullName": "DUCLAUX GUILLAUME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "67096fd7ea858d5ed6fbf52632da5cee",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "4946970",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1751894291",
+                    "pointOfSaleCode": "B093BFAA",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-07T13:18:11.51Z",
+                    "updatedAt": "2025-07-07T13:18:11.51Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "DUCLAUX GUILLAUME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "4694476",
+            "systemBookingNumber": "254694476",
+            "totalCredit": 4500,
+            "totalDebit": 4500,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "427bdafa588d9ddd198028572c4a520d",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "4694476",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T01:36:42.879Z",
+                    "updatedAt": "2025-07-03T01:36:42.879Z",
+                    "customer": {
+                        "firstName": "MANUELA",
+                        "lastName": "LAUNEAU",
+                        "fullName": "LAUNEAU MANUELA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "427bdafa588d9ddd198028572c4a520d",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "4694476",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "1751704375",
+                    "pointOfSaleCode": "3034C7CB",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-05T08:32:55.288Z",
+                    "updatedAt": "2025-07-05T08:32:55.288Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "LAUNEAU MANUELA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "4500018",
+            "systemBookingNumber": "254500018",
+            "totalCredit": 5000,
+            "totalDebit": 5000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "95b8c13a5fdc9b0e5cc7a263015aeca1",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "4500018",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T01:36:46.505Z",
+                    "updatedAt": "2025-07-03T01:36:46.505Z",
+                    "customer": {
+                        "firstName": "GUILLAUME",
+                        "lastName": "ZEJA",
+                        "fullName": "ZEJA GUILLAUME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "95b8c13a5fdc9b0e5cc7a263015aeca1",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "4500018",
+                    "accommodationNumbers": null,
+                    "amount": 2000,
+                    "paymentNumber": "1751708918",
+                    "pointOfSaleCode": "40FED2DA",
+                    "pointOfSaleName": "PDA BD LI #111",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-05T09:48:38.15Z",
+                    "updatedAt": "2025-07-05T09:48:38.15Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "ZEJA GUILLAUME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "84101",
+                    "walletId": "7fcbcae9f17ec6af49e88a5fd2e98d86",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "PARIS",
+                    "type": "credit",
+                    "bookingNumber": "4500018",
+                    "accommodationNumbers": null,
+                    "amount": 2000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "P-84101",
+                    "partner": "",
+                    "createdAt": "2025-07-08T12:44:44.401Z",
+                    "updatedAt": "2025-07-08T12:44:44.401Z",
+                    "customer": {
+                        "firstName": "GUILLAUME",
+                        "lastName": "ZEJA",
+                        "fullName": "ZEJA GUILLAUME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "95b8c13a5fdc9b0e5cc7a263015aeca1",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "4500018",
+                    "accommodationNumbers": null,
+                    "amount": 1000,
+                    "paymentNumber": "1752081053",
+                    "pointOfSaleCode": "B093BFAA",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-09T17:10:53.531Z",
+                    "updatedAt": "2025-07-09T17:10:53.531Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "ZEJA GUILLAUME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "84101",
+                    "walletId": "7fcbcae9f17ec6af49e88a5fd2e98d86",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "PARIS",
+                    "type": "debit",
+                    "bookingNumber": "4500018",
+                    "accommodationNumbers": null,
+                    "amount": 2000,
+                    "paymentNumber": "1752081066",
+                    "pointOfSaleCode": "B093BFAA",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "P-84101",
+                    "partner": "",
+                    "createdAt": "2025-07-09T17:11:07.03Z",
+                    "updatedAt": "2025-07-09T17:11:07.03Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "ZEJA GUILLAUME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "3499216",
+            "systemBookingNumber": "253499216",
+            "totalCredit": 9000,
+            "totalDebit": 2800,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "",
+                    "walletName": "9454",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "3499216",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "",
+                    "pointOfSaleName": "",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-06-16T09:35:28Z",
+                    "updatedAt": "2025-06-16T09:42:11Z",
+                    "customer": {
+                        "firstName": "AURELIA",
+                        "lastName": "NOUREAU",
+                        "fullName": "NOUREAU AURELIA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "migration",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "2583f59bfafbf5a47ef4257d1e7bc8b1",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "3499216",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-01T01:33:15.799Z",
+                    "updatedAt": "2025-07-01T01:33:15.799Z",
+                    "customer": {
+                        "firstName": "AURELIA",
+                        "lastName": "NOUREAU",
+                        "fullName": "NOUREAU AURELIA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "1a2feb28325c904c83a038da69e0c987",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "3499216",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T01:36:41.316Z",
+                    "updatedAt": "2025-07-03T01:36:41.316Z",
+                    "customer": {
+                        "firstName": "AURELIA",
+                        "lastName": "NOUREAU",
+                        "fullName": "NOUREAU AURELIA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "1a2feb28325c904c83a038da69e0c987",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "3499216",
+                    "accommodationNumbers": null,
+                    "amount": 2800,
+                    "paymentNumber": "1751534162",
+                    "pointOfSaleCode": "74ACB3E9",
+                    "pointOfSaleName": "PDA BD LI #85",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T09:16:02.156Z",
+                    "updatedAt": "2025-07-03T09:16:02.156Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "NOUREAU AURELIA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "914355",
+            "systemBookingNumber": "250914355",
+            "totalCredit": 1700,
+            "totalDebit": 0,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "84103",
+                    "walletId": "500e5f12a299b569fd588acd29706641",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "PARIS",
+                    "type": "credit",
+                    "bookingNumber": "914355",
+                    "accommodationNumbers": null,
+                    "amount": 1700,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "P-84103",
+                    "partner": "",
+                    "createdAt": "2025-07-13T12:26:00.277Z",
+                    "updatedAt": "2025-07-13T12:26:00.277Z",
+                    "customer": {
+                        "firstName": "LAURA",
+                        "lastName": "GAUTHIER",
+                        "fullName": "GAUTHIER LAURA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "2139471",
+            "systemBookingNumber": "252139471",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "1bcd2b7bd2ea5f0fd34de88c273ee177",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "2139471",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:14.114Z",
+                    "updatedAt": "2025-07-06T02:56:14.114Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "BOORN",
+                        "fullName": "BOORN",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "1bcd2b7bd2ea5f0fd34de88c273ee177",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "2139471",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1752130203",
+                    "pointOfSaleCode": "3034C7CB",
+                    "pointOfSaleName": "PDA BD LI #67",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-10T06:50:03.294Z",
+                    "updatedAt": "2025-07-10T06:50:03.294Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "BOORN",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "9611964",
+            "systemBookingNumber": "259611964",
+            "totalCredit": 6400,
+            "totalDebit": 0,
+            "transactions": [
+                {
+                    "origin": "SYSTEM",
+                    "walletCode": "9454",
+                    "walletId": "c8afb47c8797091c47a01926ed830991",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "",
+                    "walletOrigin": "",
+                    "type": "credit",
+                    "bookingNumber": "9611964",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "ONSITE",
+                    "pointOfSaleName": "ONSITE",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-05-19T23:19:42.18Z",
+                    "updatedAt": "2025-05-19T23:19:42.18Z",
+                    "customer": {
+                        "firstName": "ADELA",
+                        "lastName": "NICOLET",
+                        "fullName": "NICOLET ADELA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "84101",
+                    "walletId": "a6fc28db4d07261ff6070a1ab3e438d7",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "PARIS",
+                    "type": "credit",
+                    "bookingNumber": "9611964",
+                    "accommodationNumbers": null,
+                    "amount": 1900,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "P-84101",
+                    "partner": "",
+                    "createdAt": "2025-07-14T08:38:26.089Z",
+                    "updatedAt": "2025-07-14T08:38:26.089Z",
+                    "customer": {
+                        "firstName": "ADELA",
+                        "lastName": "NICOLET",
+                        "fullName": "NICOLET ADELA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "8719611",
+            "systemBookingNumber": "258719611",
+            "totalCredit": 18000,
+            "totalDebit": 3800,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "",
+                    "walletName": "9454",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "8719611",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "",
+                    "pointOfSaleName": "",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-06-13T03:00:37Z",
+                    "updatedAt": "2025-06-13T03:43:49Z",
+                    "customer": {
+                        "firstName": "AGNES",
+                        "lastName": "TIFFOCHE",
+                        "fullName": "TIFFOCHE AGNES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "migration",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "ec41989d5d371315ba46776d799b8fd3",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "8719611",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-01T01:33:17.587Z",
+                    "updatedAt": "2025-07-01T01:33:17.587Z",
+                    "customer": {
+                        "firstName": "AGNES",
+                        "lastName": "TIFFOCHE",
+                        "fullName": "TIFFOCHE AGNES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "ba9bc4ce1f9bb1fd1bdf03a461679ca3",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "8719611",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T01:36:34.812Z",
+                    "updatedAt": "2025-07-03T01:36:34.812Z",
+                    "customer": {
+                        "firstName": "AGNES",
+                        "lastName": "TIFFOCHE",
+                        "fullName": "TIFFOCHE AGNES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "5c8dda3e5407b1cd42cd63211d02268e",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "8719611",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:20.474Z",
+                    "updatedAt": "2025-07-06T02:56:20.474Z",
+                    "customer": {
+                        "firstName": "AGNES",
+                        "lastName": "TIFFOCHE",
+                        "fullName": "TIFFOCHE AGNES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "5c8dda3e5407b1cd42cd63211d02268e",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "8719611",
+                    "accommodationNumbers": null,
+                    "amount": 3800,
+                    "paymentNumber": "1751784810",
+                    "pointOfSaleCode": "3034C7CB",
+                    "pointOfSaleName": "PDA BD LI #76",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T06:53:30.782Z",
+                    "updatedAt": "2025-07-06T06:53:30.782Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "TIFFOCHE AGNES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "7588569",
+            "systemBookingNumber": "257588569",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "SYSTEM",
+                    "walletCode": "9454",
+                    "walletId": "da9075d84785d48cca0371ce3d1b8a98",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "",
+                    "walletOrigin": "",
+                    "type": "credit",
+                    "bookingNumber": "7588569",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "ONSITE",
+                    "pointOfSaleName": "ONSITE",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-05-19T23:22:07.867Z",
+                    "updatedAt": "2025-05-19T23:22:07.867Z",
+                    "customer": {
+                        "firstName": "KILIAN",
+                        "lastName": "COLLIOU",
+                        "fullName": "COLLIOU KILIAN",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "da9075d84785d48cca0371ce3d1b8a98",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "7588569",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1752319254",
+                    "pointOfSaleCode": "B093BFAA",
+                    "pointOfSaleName": "PDA BD LI #67",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-12T11:20:54.147Z",
+                    "updatedAt": "2025-07-12T11:20:54.147Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "COLLIOU KILIAN",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "1497225",
+            "systemBookingNumber": "251497225",
+            "totalCredit": 5000,
+            "totalDebit": 5000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "66579",
+                    "walletId": "656e1d30156e640d49752552d82f50b5",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "1497225",
+                    "accommodationNumbers": null,
+                    "amount": 5000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-66579",
+                    "partner": "",
+                    "createdAt": "2025-07-07T18:42:23.138Z",
+                    "updatedAt": "2025-07-07T18:42:23.138Z",
+                    "customer": {
+                        "firstName": "GILLES",
+                        "lastName": "GUILLOTIN",
+                        "fullName": "GUILLOTIN GILLES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "66579",
+                    "walletId": "656e1d30156e640d49752552d82f50b5",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "1497225",
+                    "accommodationNumbers": null,
+                    "amount": 1700,
+                    "paymentNumber": "1751967995",
+                    "pointOfSaleCode": "FACA9989",
+                    "pointOfSaleName": "PDA BD LI #67",
+                    "reference": "R-66579",
+                    "partner": "",
+                    "createdAt": "2025-07-08T09:46:35.226Z",
+                    "updatedAt": "2025-07-08T09:46:35.226Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "GUILLOTIN GILLES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                },
+                {
+                    "origin": "ONSITE",
+                    "walletCode": "66579",
+                    "walletId": "656e1d30156e640d49752552d82f50b5",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "1497225",
+                    "accommodationNumbers": null,
+                    "amount": 3300,
+                    "paymentNumber": "RDP-BD-25-251497225-02",
+                    "pointOfSaleCode": "FRBDAD017762",
+                    "pointOfSaleName": "",
+                    "reference": "R-66579",
+                    "partner": "CP",
+                    "createdAt": "2025-07-08T14:42:18.748Z",
+                    "updatedAt": "2025-07-08T14:42:18.748Z",
+                    "customer": {
+                        "firstName": "GILLES",
+                        "lastName": "GUILLOTIN",
+                        "fullName": "GUILLOTIN GILLES",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "5881",
+                        "firstName": "Damien",
+                        "lastName": "FRILLEY"
+                    },
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "2012623",
+            "systemBookingNumber": "242012623",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "35abb89a5013aa5a2b743d643ef6302f",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "2012623",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:12.454Z",
+                    "updatedAt": "2025-07-06T02:56:12.454Z",
+                    "customer": {
+                        "firstName": "OLIVIER",
+                        "lastName": "TOLLÉ",
+                        "fullName": "TOLLÉ OLIVIER",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "35abb89a5013aa5a2b743d643ef6302f",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "2012623",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1752158629",
+                    "pointOfSaleCode": "B093BFAA",
+                    "pointOfSaleName": "PDA BD LI #111",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-10T14:43:49.905Z",
+                    "updatedAt": "2025-07-10T14:43:49.905Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "TOLLÉ OLIVIER",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "6256685",
+            "systemBookingNumber": "246256685",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "SYSTEM",
+                    "walletCode": "9454",
+                    "walletId": "2e766a0c2c19094a9cf1ff32596ba6e7",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "",
+                    "walletOrigin": "",
+                    "type": "credit",
+                    "bookingNumber": "6256685",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "ONSITE",
+                    "pointOfSaleName": "ONSITE",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-05-19T23:21:25.161Z",
+                    "updatedAt": "2025-05-19T23:21:25.161Z",
+                    "customer": {
+                        "firstName": "OLIVIER/FLORENCE",
+                        "lastName": "DI PAOLO/PICARD",
+                        "fullName": "DI PAOLO/PICARD OLIVIER/FLORENCE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "2e766a0c2c19094a9cf1ff32596ba6e7",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "6256685",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1752568411",
+                    "pointOfSaleCode": "33A2A8EA",
+                    "pointOfSaleName": "PDA BD LI #63",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-15T08:33:31.522Z",
+                    "updatedAt": "2025-07-15T08:33:31.522Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "DI PAOLO/PICARD OLIVIER/FLORENCE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "3447554",
+            "systemBookingNumber": "243447554",
+            "totalCredit": 3000,
+            "totalDebit": 1600,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "9cb31b0668ab0b5714bb18ef96d23659",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "3447554",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:20.28Z",
+                    "updatedAt": "2025-07-06T02:56:20.28Z",
+                    "customer": {
+                        "firstName": "ETIENNE",
+                        "lastName": "VAN DEN NEUCKER",
+                        "fullName": "VAN DEN NEUCKER ETIENNE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "9cb31b0668ab0b5714bb18ef96d23659",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "3447554",
+                    "accommodationNumbers": null,
+                    "amount": 1600,
+                    "paymentNumber": "1752071783",
+                    "pointOfSaleCode": "B093BFAA",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-09T14:36:23.952Z",
+                    "updatedAt": "2025-07-09T14:36:23.952Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "VAN DEN NEUCKER ETIENNE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "6892355",
+            "systemBookingNumber": "256892355",
+            "totalCredit": 4500,
+            "totalDebit": 4500,
+            "transactions": [
+                {
+                    "origin": "SYSTEM",
+                    "walletCode": "9454",
+                    "walletId": "b87c6592d2f859d630faeb473521127e",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "",
+                    "walletOrigin": "",
+                    "type": "credit",
+                    "bookingNumber": "6892355",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "ONSITE",
+                    "pointOfSaleName": "ONSITE",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-05-19T23:20:44.9Z",
+                    "updatedAt": "2025-05-19T23:20:44.9Z",
+                    "customer": {
+                        "firstName": "LUDOVIC",
+                        "lastName": "MAGALI",
+                        "fullName": "MAGALI LUDOVIC",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "b87c6592d2f859d630faeb473521127e",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "6892355",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "1752248525",
+                    "pointOfSaleCode": "40B8A924",
+                    "pointOfSaleName": "PDA BD LI #76",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-11T15:42:05.246Z",
+                    "updatedAt": "2025-07-11T15:42:05.246Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "MAGALI LUDOVIC",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "8464617",
+            "systemBookingNumber": "248464617",
+            "totalCredit": 3000,
+            "totalDebit": 2500,
+            "transactions": [
+                {
+                    "origin": "SYSTEM",
+                    "walletCode": "9454",
+                    "walletId": "ad5d35963fd3eefc45bfbb65300d9e02",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "",
+                    "walletOrigin": "",
+                    "type": "credit",
+                    "bookingNumber": "8464617",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "ONSITE",
+                    "pointOfSaleName": "ONSITE",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-05-19T23:17:51.107Z",
+                    "updatedAt": "2025-05-19T23:17:51.107Z",
+                    "customer": {
+                        "firstName": "BRICE",
+                        "lastName": "GUIBERT",
+                        "fullName": "GUIBERT BRICE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "ad5d35963fd3eefc45bfbb65300d9e02",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "8464617",
+                    "accommodationNumbers": null,
+                    "amount": 2500,
+                    "paymentNumber": "1752413951",
+                    "pointOfSaleCode": "FACA9989",
+                    "pointOfSaleName": "PDA BD LI #111",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-13T13:39:11.519Z",
+                    "updatedAt": "2025-07-13T13:39:11.519Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "GUIBERT BRICE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "8737505",
+            "systemBookingNumber": "248737505",
+            "totalCredit": 6000,
+            "totalDebit": 0,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "04d7884689c81876778a91a9cb894829",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "8737505",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T01:36:47.914Z",
+                    "updatedAt": "2025-07-03T01:36:47.914Z",
+                    "customer": {
+                        "firstName": "JÉRÔME",
+                        "lastName": "BILLAUD",
+                        "fullName": "BILLAUD JÉRÔME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "b2f6a67f5b1ae11a0a4c126d9f5a1693",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "8737505",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:14.517Z",
+                    "updatedAt": "2025-07-06T02:56:14.517Z",
+                    "customer": {
+                        "firstName": "JÉRÔME",
+                        "lastName": "BILLAUD",
+                        "fullName": "BILLAUD JÉRÔME",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "2690270",
+            "systemBookingNumber": "242690270",
+            "totalCredit": 4500,
+            "totalDebit": 4500,
+            "transactions": [
+                {
+                    "origin": "SYSTEM",
+                    "walletCode": "9454",
+                    "walletId": "fc00b1dbbc41358e87c3925e1e66cbbd",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "",
+                    "walletOrigin": "",
+                    "type": "credit",
+                    "bookingNumber": "2690270",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "ONSITE",
+                    "pointOfSaleName": "ONSITE",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-05-19T23:20:00.727Z",
+                    "updatedAt": "2025-05-19T23:20:00.727Z",
+                    "customer": {
+                        "firstName": "MICHAEL",
+                        "lastName": "GAUDIN",
+                        "fullName": "GAUDIN MICHAEL",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "fc00b1dbbc41358e87c3925e1e66cbbd",
+                    "walletName": "Crédit Activité plus (9454)",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "2690270",
+                    "accommodationNumbers": null,
+                    "amount": 4500,
+                    "paymentNumber": "1752221904",
+                    "pointOfSaleCode": "3034C7CB",
+                    "pointOfSaleName": "PDA BD LI #74",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-11T08:18:24.708Z",
+                    "updatedAt": "2025-07-11T08:18:24.708Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "GAUDIN MICHAEL",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "542894",
+            "systemBookingNumber": "240542894",
+            "totalCredit": 9000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "",
+                    "walletName": "9454",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "542894",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "",
+                    "pointOfSaleName": "",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-06-13T03:00:37Z",
+                    "updatedAt": "2025-06-13T03:43:48Z",
+                    "customer": {
+                        "firstName": "KARINE",
+                        "lastName": "MARGATHE",
+                        "fullName": "MARGATHE KARINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "migration",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "23925e3863a91fca0baa955fcc9b4e65",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "542894",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-01T01:33:10.933Z",
+                    "updatedAt": "2025-07-01T01:33:10.933Z",
+                    "customer": {
+                        "firstName": "KARINE",
+                        "lastName": "MARGATHE",
+                        "fullName": "MARGATHE KARINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "21547174afd7452b8b19dd0f3f655c9a",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "542894",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-03T01:36:35.577Z",
+                    "updatedAt": "2025-07-03T01:36:35.577Z",
+                    "customer": {
+                        "firstName": "KARINE",
+                        "lastName": "MARGATHE",
+                        "fullName": "MARGATHE KARINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "21547174afd7452b8b19dd0f3f655c9a",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "542894",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1751632456",
+                    "pointOfSaleCode": "40FED2DA",
+                    "pointOfSaleName": "PDA BD LI #76",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-04T12:34:16.637Z",
+                    "updatedAt": "2025-07-04T12:34:16.637Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "MARGATHE KARINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "4304042",
+            "systemBookingNumber": "254304042",
+            "totalCredit": 6000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "",
+                    "walletName": "9454",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "4304042",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "",
+                    "pointOfSaleName": "",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-06-16T09:35:28Z",
+                    "updatedAt": "2025-06-16T09:42:11Z",
+                    "customer": {
+                        "firstName": "FANNY",
+                        "lastName": "JEHANNIN",
+                        "fullName": "JEHANNIN FANNY",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "migration",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "b636ebc6f7cddcb33efcf2e2f8fbd955",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "4304042",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-01T01:33:11.989Z",
+                    "updatedAt": "2025-07-01T01:33:11.989Z",
+                    "customer": {
+                        "firstName": "FANNY",
+                        "lastName": "JEHANNIN",
+                        "fullName": "JEHANNIN FANNY",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "b636ebc6f7cddcb33efcf2e2f8fbd955",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "4304042",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1751453499",
+                    "pointOfSaleCode": "5A5C7FB3",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-02T10:51:39.052Z",
+                    "updatedAt": "2025-07-02T10:51:39.052Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "JEHANNIN FANNY",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "3860159",
+            "systemBookingNumber": "253860159",
+            "totalCredit": 8000,
+            "totalDebit": 4000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "66579",
+                    "walletId": "d4458521925a3ae9ffc2e5e9e799f377",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "3860159",
+                    "accommodationNumbers": null,
+                    "amount": 4000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-66579",
+                    "partner": "",
+                    "createdAt": "2025-07-04T17:49:40.485Z",
+                    "updatedAt": "2025-07-04T17:49:40.485Z",
+                    "customer": {
+                        "firstName": "DELPHINE",
+                        "lastName": "CHANSIOUX",
+                        "fullName": "CHANSIOUX DELPHINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "66579",
+                    "walletId": "396cec62b61bba9128c3a84712094993",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "3860159",
+                    "accommodationNumbers": null,
+                    "amount": 4000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-66579",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:04.763Z",
+                    "updatedAt": "2025-07-06T02:56:04.763Z",
+                    "customer": {
+                        "firstName": "DELPHINE",
+                        "lastName": "CHANSIOUX",
+                        "fullName": "CHANSIOUX DELPHINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "66579",
+                    "walletId": "396cec62b61bba9128c3a84712094993",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "3860159",
+                    "accommodationNumbers": null,
+                    "amount": 4000,
+                    "paymentNumber": "1751910286",
+                    "pointOfSaleCode": "04700F32F77580",
+                    "pointOfSaleName": "PDA BD #140",
+                    "reference": "R-66579",
+                    "partner": "",
+                    "createdAt": "2025-07-07T17:44:46.842Z",
+                    "updatedAt": "2025-07-07T17:44:46.842Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "CHANSIOUX DELPHINE",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "4800439",
+            "systemBookingNumber": "254800439",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "00bd1670feeaa84a71166e941f4b850d",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "4800439",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-06T02:56:15.277Z",
+                    "updatedAt": "2025-07-06T02:56:15.277Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "COPPING",
+                        "fullName": "COPPING",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "9454",
+                    "walletId": "00bd1670feeaa84a71166e941f4b850d",
+                    "walletName": "",
+                    "walletType": "ACTIVITY",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "4800439",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1751981434",
+                    "pointOfSaleCode": "F0EF8920",
+                    "pointOfSaleName": "PDA BD LI #71",
+                    "reference": "R-9454",
+                    "partner": "",
+                    "createdAt": "2025-07-08T13:30:34.051Z",
+                    "updatedAt": "2025-07-08T13:30:34.051Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "COPPING",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "bookingNumber": "2319424",
+            "systemBookingNumber": "252319424",
+            "totalCredit": 3000,
+            "totalDebit": 3000,
+            "transactions": [
+                {
+                    "origin": "PDA",
+                    "walletCode": "66579",
+                    "walletId": "b74eb840a698eef52093121b21e56163",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "credit",
+                    "bookingNumber": "2319424",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "",
+                    "pointOfSaleCode": "PDA",
+                    "pointOfSaleName": "PDA",
+                    "reference": "R-66579",
+                    "partner": "",
+                    "createdAt": "2025-07-04T09:35:06.09Z",
+                    "updatedAt": "2025-07-04T09:35:06.09Z",
+                    "customer": {
+                        "firstName": "SABRINA",
+                        "lastName": "JEANNEAU",
+                        "fullName": "JEANNEAU SABRINA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": {
+                        "id": "booking-automatic",
+                        "firstName": "",
+                        "lastName": ""
+                    },
+                    "comment": ""
+                },
+                {
+                    "origin": "PDA",
+                    "walletCode": "66579",
+                    "walletId": "b74eb840a698eef52093121b21e56163",
+                    "walletName": "",
+                    "walletType": "GLOBAL",
+                    "walletOrigin": "SYSTEM",
+                    "type": "debit",
+                    "bookingNumber": "2319424",
+                    "accommodationNumbers": null,
+                    "amount": 3000,
+                    "paymentNumber": "1751630211",
+                    "pointOfSaleCode": "6EA84283",
+                    "pointOfSaleName": "PDA BD #145",
+                    "reference": "R-66579",
+                    "partner": "",
+                    "createdAt": "2025-07-04T11:56:51.777Z",
+                    "updatedAt": "2025-07-04T11:56:51.777Z",
+                    "customer": {
+                        "firstName": "",
+                        "lastName": "",
+                        "fullName": "JEANNEAU SABRINA",
+                        "braceletUuid": "",
+                        "rightUuid": ""
+                    },
+                    "operator": null,
+                    "comment": ""
+                }
+            ]
+        }
+    ]
+}

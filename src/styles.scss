@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css'; // Si absent, ajoutez pour le thème Material
+
+// Styles pour le bouton
+:host ::ng-deep button.mat-raised-button,
+:host ::ng-deep .mat-mdc-raised-button {
+  border-radius: 20px !important;
+
+}
+
+html, body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif; // Police Material  
+}
+
+
