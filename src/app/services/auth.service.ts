@@ -22,7 +22,9 @@ export class AuthService {
   constructor(private http: HttpClient, private router: Router) {}
 
   initializeGoogle() {
+    console.log( environment.googleClientId);
     google.accounts.id.initialize({
+      
       client_id: environment.googleClientId,
       callback: (response: any) => this.handleGoogleResponse(response)
     });

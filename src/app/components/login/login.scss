@@ -3,6 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100%; // Déjà présent, mais assurez qu'il remplit la partie centrale
   padding: 20px;
+  background-color: white; // Fond blanc pour cohérence
+}
+
+mat-card {
+  max-width: 400px; // Limite la largeur pour centrage
+  text-align: center; // Centre le texte
 }

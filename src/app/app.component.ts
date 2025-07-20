@@ -1,6 +1,6 @@
 // src/app/app.component.ts
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet,Router } from '@angular/router';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -21,7 +21,7 @@ export class AppComponent {
   isSidenavOpen: boolean = false;
   user: any = null; // Typé selon UserDetails de auth.service.ts
 
-  constructor(private authService: AuthService) {
+  constructor(private authService: AuthService, private router: Router) {
     // Chargez l'utilisateur depuis localStorage ou service si besoin
     this.user = this.authService.getUser();
   }
@@ -44,6 +44,6 @@ export class AppComponent {
   }
 
   navigateToLogin() {
-    // Redirigez vers /login si besoin
+    this.router.navigate(['/login']);
   }
 }
